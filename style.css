@@ -1,0 +1,54 @@
+* {
+    background-color: rebeccapurple;
+    box-sizing: border-box;
+}
+body html {
+    height: 100%;
+    width: 100%;
+    display: grid;
+
+}
+.num1 {
+    background-color: salmon;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90%;
+    text-align: center;
+
+}
+.operator {
+    background-color: skyblue;
+    height: 25px;
+    width: 25px;
+    border-radius: 90%;
+    text-align: center;
+    align-content: center;
+    
+
+}
+.num2 {
+    background-color: salmon;
+    height: 50px;
+    width: 50px;
+    border-radius: 90%;
+    text-align: center;
+}
+.button {
+    background-color: mediumseagreen;
+    height: 100px;
+    width: 100px;
+    border-radius: 90%;
+    text-align: center;
+}
+.answer {
+    background-color: magenta;
+    height: 300px;
+    width: 300px;
+    font-size: 6em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90%;
+    text-align: center;
+}
