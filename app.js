@@ -5,7 +5,8 @@ const answerEl = num1El.value + num2El.value;
 
 const buttonEl = document.getElementById('button');
 buttonEl.addEventListener('click', () => {
-    let whatTheUserTyped = num1El.value;
-    let whatElseTheUserTyped = num2El.value;
-   answerEl.textContent = whatTheUserTyped + whatElseTheUserTyped;
-})
+    var whatTheUserTyped = num1El.value;
+    var whatElseTheUserTyped = num2El.value;
+   answerEl.textContent = whatTheUserTyped += whatElseTheUserTyped;
+
+   return answerEl;}) 
